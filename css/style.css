@@ -1,0 +1,168 @@
+/*!
+ * Bootstrap v3.3.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/* Layout 
+**************************************/
+
+body {
+  padding-top: 75px;
+  font-family: 'Bubblegum Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+/*.jumbotron {
+  margin-bottom: 0;
+}
+.jumbotron > a:hover {
+  text-decoration: none;
+  -webkit-transition:width 2s, height 2s, background-color 2s, 
+  -webkit-transform 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+}*/
+#mission-row {  
+  height: 100%;
+/*  background: url('../img/achromatic-patterns-03-repeat.png'); */
+  background-color: #6495ED;
+  padding: .75em;
+}
+#mission-row h1 {
+  color: #fff;
+}
+#mission-row > .col-sm-5 {
+  text-align: center;
+  color: white;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+#about-row {
+  height: 100%;
+}
+#about-row .description {
+  text-align: center;
+}
+.services-row {
+  height: 100%;
+  background-color: #95ed64;
+  text-align: center;
+  color: #fff;
+}
+.services-row a {
+  color: #fff;
+}
+.services-row a:hover {
+  text-decoration: none;
+  color: #6495ED;
+}
+.services-row .col-sm-2 {
+  padding: 7.5px;
+  text-align: center;
+}
+#footer {
+  height: 100%;
+/*  background: url('../img/dot-footer.png') no-repeat; */
+  background-color: #ed6495;
+  color: #fff;
+  text-align: center;
+}
+#footer .media {
+
+}
+
+/* Navigation 
+**************************************/
+
+.navbar {
+  background-color: #fff;
+/*  -moz-box-shadow: 0px 5px 5px #D72C2C;
+  -webkit-box-shadow: 0px 5px 5px #D72C2C;
+  box-shadow: 0px 5px 5px #D72C2C; */
+}
+.navbar-nav > li > a {
+  position: relative;
+  color: #6495ED;
+  text-decoration: none;
+  background-color: transparent;
+}
+/*.navbar-nav > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}*/
+.navbar-nav > li > a:visited {
+  text-decoration: none;
+  background-color: transparent;
+  color: #6495ED;
+}
+/*.navbar-nav > li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}*/
+.navbar-nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #D72C2C;
+}
+.navbar-nav > li > a:active {
+  text-decoration: none;
+  background-color: transparent;
+  color: #D72C2C;
+}
+.navbar-nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  color: #D72C2C;
+}
+.navbar-nav .active > li > a:visited {
+  text-decoration: none;
+  background-color: transparent;
+  color: #6495ED;
+}
+.navbar-nav .active > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #D72C2C;
+}
+.navbar-nav .active > li > a:active {
+  text-decoration: none;
+  background-color: transparent;
+  color: #D72C2C;
+}
+.navbar-nav .active > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  color: #D72C2C;
+}
+.navbar-brand {
+  width: 75px;
+  height: 75px;
+  background: url('../img/tc_logo.jpg') no-repeat;
+}
+
+@media (max-width: 991px) { 
+  #mission-row h1 {
+    font-size: 2em;
+  }
+}
