@@ -1,0 +1,168 @@
+/*
+
+Colors: Royal Blue: 15 53 166 #0F35A6
+    Dark Blue: 16 41 115 #102973
+    Mid Blue: 107 165 242 #6BA5F2
+    Light Blue: 128 199 242 #80C7F2
+    Sea Green: 162 242 234 #A2F2EA
+*/
+
+/**************************
+    Layout
+**************************/
+
+body {
+  font-family: 'Bubblegum Sans', sans-serif;
+  font-size: 1.2em / .1em;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+#hero-row {
+  background-image: url('img/hero-wix.jpg') no-repeat;
+  color: white;
+  text-align: center;
+}
+#services-row {
+  height: 100%;
+  background-color: rgba(107,165,242,.2);
+  text-align: center;
+  color: #fff;
+}
+.services-row a,
+.services-row a:active,
+.services-row a:hover,
+.services-row a:visited,
+.services-row a:focus {
+  6BA5F2
+}
+#footer {
+  height: 100%; 
+  background: #102973;
+  color: #fff;
+  text-align: center;
+}
+#footer .media {
+
+}
+
+/**************************
+    Typography
+**************************/
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1em;
+}
+h4 {
+  font-size: .75em;
+}
+h5 {
+  font-size: .5em;
+}
+h6 {
+  font-size: .25em;
+}
+
+/**************************
+    Images
+**************************/
+
+.logo-img {
+  margin: auto;
+  padding: .5em 0;
+}
+.hero-img {
+  margin: auto;
+  width: 960px;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/**************************
+    Navigation
+**************************/
+
+.navbar {
+  margin-bottom: -.15em;
+}
+.navbar-collapse {
+  background: #6BA5F2;  
+}
+.navbar-collapse ul {
+  background: #6BA5F2;  
+}
+.navbar-collapse .dropdown a,
+.navbar-collapse .dropdown a:active,
+.navbar-collapse .dropdown a:hover,
+.navbar-collapse .dropdown a:visited,
+.navbar-collapse .dropdown a:focus
+ {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  background: #6BA5F2;
+}
+.navbar-collapse .dropdown a:hover,
+.navbar-collapse .dropdown a:active,
+.navbar-collapse .dropdown a:focus {
+  background: #80C7F2;
+}
+.navbar-collapse .active a,
+.navbar-collapse .active a:active,
+.navbar-collapse .active a:hover,
+.navbar-collapse .active a:visited,
+.navbar-collapse .active a:focus
+ {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  background: #6BA5F2;
+}
+.navbar-collapse .active a:hover,
+.navbar-collapse .active a:active,
+.navbar-collapse .active a:focus {
+  background: #80C7F2;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+/*.navbar-nav > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}*/
+
+/*.navbar-nav > li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}*/
