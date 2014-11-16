@@ -51,29 +51,28 @@ body {
 
 h1 {
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 500;
 }
 h2 {
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 300;
 }
 h3 {
   font-size: 1em;
-  font-weight: 200;  
+  font-weight: 300;  
 }
 h4 {
   font-size: .75em;
-  font-weight: 200;
+  font-weight: 300;
 }
 h5 {
   font-size: .5em;
-  font-weight: 200;
+  font-weight: 300;
 }
 h6 {
   font-size: .25em;
-  font-weight: 200;
+  font-weight: 300;
 }
-
 /****************************************************
                       Images
 ****************************************************/
@@ -118,11 +117,13 @@ h6 {
   color: #fff;
   text-decoration: none;
   background: #6BA5F2;
+  font-size: 1.3em;
 }
 .navbar-collapse .active a:hover,
 .navbar-collapse .active a:active,
 .navbar-collapse .active a:focus {
   background: #80C7F2;
+  font-size: 1.3em;
 }
 .navbar-collapse .dropdown a,
 .navbar-collapse .dropdown a:active,
@@ -133,11 +134,13 @@ h6 {
   color: #fff;
   text-decoration: none;
   background: #6BA5F2;
+  font-size: 1.3em;  
 }
 .navbar-collapse .dropdown a:hover,
 .navbar-collapse .dropdown a:active,
 .navbar-collapse .dropdown a:focus {
   background: #80C7F2;
+  font-size: 1.3em;  
 }
 
 
@@ -163,29 +166,6 @@ h6 {
   min-height: 400px;
 }
 
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Pad the edges of the mobile views a bit */
-.marketing {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  text-align: center;
-  padding: 20px 0;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 @media (min-width: 768px) {
     .navbar .navbar-nav {
       display: inline-block;
@@ -196,16 +176,6 @@ h6 {
     .navbar .navbar-collapse {
       text-align: center;
     }
-    .marketing {
-      padding-left: 0;
-      padding-right: 0;
-  }
-  /* Bump up size of carousel content */
-    .carousel-caption p {
-      margin-bottom: 20px;
-      font-size: 21px;
-      line-height: 1.4;
-  }
 }
 
 @media (max-width: 767px) {
