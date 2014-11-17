@@ -119,13 +119,13 @@ h6 {
   color: #fff;
   text-decoration: none;
   background: #6BA5F2;
-  font-size: 1.3em;
+  font-size: 1.5rem;
 }
 .navbar-collapse .active a:hover,
 .navbar-collapse .active a:active,
 .navbar-collapse .active a:focus {
   background: #80C7F2;
-  font-size: 1.3em;
+  font-size: 1.5rem;
 }
 .navbar-collapse .dropdown a,
 .navbar-collapse .dropdown a:active,
@@ -136,14 +136,15 @@ h6 {
   color: #fff;
   text-decoration: none;
   background: #6BA5F2;
-  font-size: 1.3em;  
+  font-size: 1.5rem;  
 }
 .navbar-collapse .dropdown a:hover,
 .navbar-collapse .dropdown a:active,
 .navbar-collapse .dropdown a:focus {
   background: #80C7F2;
-  font-size: 1.3em;  
+  font-size: 1.5rem;  
 }
+
 
 
 /****************************************************
