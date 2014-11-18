@@ -15,18 +15,14 @@ Colors: Royal Blue: 15 53 166 #0F35A6
 .container {
   margin: 0 auto;
   max-width: 960px;
-  border: solid;
-  border-color: black;
-  border-width: 1px;
+
 }
 #about-row {
   color: #6BA5F2;
   margin-bottom: 15px;
   height: 200px;
   padding-top: 20px;
-  border: solid;
-  border-color: black;
-  border-width: 1px;
+
 }
 .services-row {
   height: 100%;
@@ -34,9 +30,7 @@ Colors: Royal Blue: 15 53 166 #0F35A6
   text-align: center;
   color: #6BA5F2;
   padding: 15px 0 30px 0;
-  border: solid;
-  border-color: black;
-  border-width: 1px;
+
 }
 .services-row a,
 .services-row a:active,
@@ -51,39 +45,25 @@ Colors: Royal Blue: 15 53 166 #0F35A6
   background: #102973;
   color: #fff;
   text-align: center;
-  border: solid;
-  border-color: black;
-  border-width: 1px;
+
 }
 .col-md-6 {
-    border: solid;
-  border-color: black;
-  border-width: 1px;
+  
 }
 .row {
-  border: solid;
-  border-color: black;
-  border-width: 1px;
+
 }
 .col-md-4 {
-    border: solid;
-  border-color: black;
-  border-width: 1px;
+  
 }
 .col-md-5 {
-    border: solid;
-  border-color: black;
-  border-width: 1px;
+  
 }
 .col-md-7 {
-    border: solid;
-  border-color: black;
-  border-width: 1px;
+  
 }
 .col-md-12 {
-    border: solid;
-  border-color: black;
-  border-width: 1px;
+  
 }
 
 /****************************************************
