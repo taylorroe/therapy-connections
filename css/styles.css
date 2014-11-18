@@ -235,9 +235,11 @@ h6 {
   background: #102973;
   color: #fff;
 }
-
 .navbar-form input, .form-inline input {
   width:auto;
+}
+.navbar-toggle {
+  background: #6BA5F2;
 }
 
 
