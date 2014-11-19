@@ -136,13 +136,57 @@ h6 {
                       Navigation
 ****************************************************/
 
-.navbar {
+.navbar-default {
+  background-color: #6ba5f2;
   margin: -1px;
 }
-.navbar-collapse {
-  background: #6BA5F2;
+.navbar-default .navbar-brand {
+  color: #fff;
 }
-.navbar-collapse ul {
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  background-color: #6ba5f2;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #80c7f2;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #80c7f2;
+}
+.navbar-default .navbar-toggle {
+  border-color: #80c7f2;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #80c7f2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #80c7f2;
+  }
+}
+/*.navbar-collapse ul {
   background: #6BA5F2;  
 }
 .navbar-collapse .active a,
@@ -179,7 +223,7 @@ h6 {
 .navbar-collapse .dropdown a:focus {
   background: #80C7F2;
   font-size: 1.5rem;  
-}
+}*/
 
 
 
@@ -341,18 +385,6 @@ a,a:hover {
 .btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
 .btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
 .btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
-
-/****************************************************
-                      Forms
-****************************************************/
-
-.well,
-.well-sm {
-  background-color: rgba(107,165,242,.2);
-}
-
-
-
 
 /*.navbar-nav > li > a:before {
   content: "";
