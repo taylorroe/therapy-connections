@@ -11,13 +11,14 @@ Colors: Royal Blue: 15 53 166 #0F35A6
                       Layout
 ****************************************************/
 
-
+body {
+  margin-top: 100px;
+}
 .container {
   margin: 0 auto;
   max-width: 960px;
-
 }
-#about-row {
+.about-row {
   color: #6BA5F2;
   margin-bottom: 15px;
   height: 200px;
@@ -40,31 +41,18 @@ Colors: Royal Blue: 15 53 166 #0F35A6
   color: #6BA5F2;
   text-decoration: none;
 }
-#footer {
+footer {
   height: 100%; 
   background: #102973;
   color: #fff;
   text-align: center;
+}
 
-}
-.col-md-6 {
-  
-}
-.row {
-
-}
-.col-md-4 {
-  
-}
-.col-md-5 {
-  
-}
-.col-md-7 {
-  
-}
-.col-md-12 {
-  
-}
+@media (max-width: 767px) {
+  body {
+    font-size: 1em;
+    }
+  }
 
 /****************************************************
                       Typography
@@ -111,7 +99,8 @@ h6 {
 ****************************************************/
 
 .logo-img {
-  margin: auto;
+  height: 70px;
+  width: 200px;
 }
 .hero-img {
   margin: auto;
@@ -136,56 +125,76 @@ h6 {
                       Navigation
 ****************************************************/
 
-.navbar-default {
-  background-color: #6ba5f2;
-  margin: -1px;
+.navbar-fixed-top {
+  max-width: 960px;
+  margin: 0 auto -1px;
 }
-.navbar-default .navbar-brand {
-  color: #fff;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #fff;
-}
-.navbar-default .navbar-text {
-  color: #fff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
+.navbar-fixed-top {
   background-color: #6ba5f2;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-fixed-top .navbar-brand {
   color: #fff;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
+  color: #fff;
+}
+.navbar-fixed-top .navbar-text {
+  color: #fff;
+}
+.navbar-fixed-top .navbar-nav > li > a {
+  color: #fff;
+  background-color: #6ba5f2;
+  font-size: 1.2em;
+}
+.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .active > a:hover, .navbar-fixed-top .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: #80c7f2;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+.navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > .open > a:hover, .navbar-fixed-top .navbar-nav > .open > a:focus {
   color: #fff;
   background-color: #80c7f2;
 }
-.navbar-default .navbar-toggle {
+.navbar-fixed-top .navbar-toggle {
   border-color: #80c7f2;
 }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-fixed-top .navbar-toggle:hover, .navbar-fixed-top .navbar-toggle:focus {
   background-color: #80c7f2;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-fixed-top .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+.navbar-toggle {
+  background: #6BA5F2;
+}
+
+@media (max-width: 990px) {
+  .navbar-fixed-top {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+  }
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  .navbar-fixed-top .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-fixed-top .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-fixed-top .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .navbar-fixed-top .navbar-nav .open .dropdown-menu > .active > a, .navbar-fixed-top .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-fixed-top .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
     background-color: #80c7f2;
   }
 }
+
+
 /*.navbar-collapse ul {
   background: #6BA5F2;  
 }
@@ -223,7 +232,12 @@ h6 {
 .navbar-collapse .dropdown a:focus {
   background: #80C7F2;
   font-size: 1.5rem;  
-}*/
+}
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+*/
 
 
 
@@ -249,41 +263,17 @@ h6 {
   min-height: 400px;
 }
 
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-      text-align: center;
-    }
-}
-
-@media (max-width: 767px) {
-  body {
-    font-size: 1em;
-    }
-  }
 
 /****************************************************
                       Buttons
 ****************************************************/
 
-.btn-default {
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:visited {
   background: #102973;
   color: #fff;
-}
-.btn-default:hover, {
-  background: #102973;
-  color: #fff;
-}
-.navbar-form input, .form-inline input {
-  width:auto;
-}
-.navbar-toggle {
-  background: #6BA5F2;
 }
 
 
