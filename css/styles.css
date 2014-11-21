@@ -146,12 +146,20 @@ h6 {
   background-color: #6ba5f2;
   font-size: 1.2em;
 }
-.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus {
-  color: #fff;
-}
-.navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .active > a:hover, .navbar-fixed-top .navbar-nav > .active > a:focus {
+.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus, .navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .active > a:hover, .navbar-fixed-top .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: #80c7f2;
+}
+.dropdown-menu > li > a {
+  color: #fff;
+  background-color: #6ba5f2;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > a, .n.dropdown-menu > a:hover, .dropdown-menu > .active > a:focus {
+  color: #fff;
+  background-color: #80c7f2;
+}
+.dropdown-menu {
+  background-color: #6ba5f2;
 }
 .navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > .open > a:hover, .navbar-fixed-top .navbar-nav > .open > a:focus {
   color: #fff;
