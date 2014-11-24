@@ -13,46 +13,50 @@ Colors: Royal Blue: 15 53 166 #0F35A6
 
 body {
   margin-top: 100px;
+  color: #102973;
 }
 .container {
   margin: 0 auto;
   max-width: 960px;
+  background-color: rgba(107,165,242,.2);
+  /* border: 1px solid #000; */
 }
 .about-row {
   color: #6BA5F2;
-  margin-bottom: 15px;
+  background-color: #fff;
   height: 200px;
   padding-top: 20px;
-
 }
 .services-row {
-  height: 100%;
-  background-color: rgba(107,165,242,.2);
   text-align: center;
-  color: #6BA5F2;
   padding: 1em 0 2em 0;
-
 }
 .services-row a,
 .services-row a:active,
 .services-row a:hover,
 .services-row a:visited,
 .services-row a:focus {
-  color: #6BA5F2;
+  color: #102973;
   text-decoration: none;
 }
 .services-row .col-sm-4 {
   padding: 1em 0;
 }
 .contact-row {
+  margin-top: 2em;
+}
+.map-row {
   margin: 2em;
 }
-footer {
-  height: 100%; 
-  background: #102973;
+.footer-row {
+  background-color: #102973;
   color: #fff;
   text-align: center;
 }
+  
+/* div[class*='col'] {
+  border: 1px solid #000;
+} */
 
 @media (max-width: 767px) {
   body {
@@ -116,6 +120,10 @@ h6 {
   width: 40px;
   height: 40px;
 }
+.img-staff {
+  width: 117px;
+  height: 114px;
+}
 .img-circle {
   height: 50px;
   width: 50px;
@@ -126,6 +134,7 @@ h6 {
   border: 0;
   margin-top: 15px;
 }
+
 
 /****************************************************
                       Navigation
@@ -322,12 +331,7 @@ h6 {
 }
 
 a,a:hover {
-  color:#223344;
   text-decoration:none;
-}
-
-.icon-bar {
-  background-color:#fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -343,6 +347,7 @@ a,a:hover {
 .panel {
   border-color:transparent;
   border-radius:0;
+  background-color: transparent;
 }
 
 .thumbnail {

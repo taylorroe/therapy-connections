@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Cabin:400italic,400,500italic,500,600italic,600,700italic,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin:400italic,400,500italic,500,600italic,600,700italic,700" rel="stylesheet" type="text/css">
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -21,116 +21,187 @@
     <![endif]-->
 	</head>
   <body>
-
+    
     <div class="container">
-      <div class="row" id="logo-row">
-        <div class="col-md-12">
-          <img class="img-responsive logo-img" src="img/logo.jpg" alt="Therapy Connections PC">
+      <nav class="navbar navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+              <a class="navbar-brand" href="#"><img class="img-responsive logo-img" src="img/logo.png" alt="Therapy Connections, PC"></a>
         </div>
-      </div>
-    </div>
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="bs-slide-dropdown">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <div class="container">
-      <div class="navbar">
-        <div class="collapse navbar-collapse" id="bs-slide-dropdown">
-          <ul class="nav navbar-nav">
-            <li class="dropdown"><a class="active" href="index.html">Home</a></li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="index.html">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle active" data-toggle="dropdown">About</a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
               <ul class="dropdown-menu">
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="meet.html">Meet Us</a></li>
+                <li><a href="meet.html">Meet us</a></li>
               </ul>
-            </li>
+            </li>           
             <li class="dropdown">
-              <a class="active" href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
               <ul class="dropdown-menu">
-                <li><a href="#">Accent</a></li>
-                <li><a href="#">Bilingual</a></li>
-                <li><a href="#">Feeding</a></li>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">Occupational</a></li>
-                <li><a href="#">Pysical</a></li>
-                <li><a href="#">Social</a></li>
+                <li><a href="accent.html">Accent</a></li>
+                <li><a href="bilingual.html">Bilingual</a></li>
+                <li><a href="feeding.html">Feeding</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="occupational.html">Occupational</a></li>
+                <li><a href="physical.html">Pysical</a></li>
+                <li><a href="social.html">Social</a></li>
                 <li><a href="speech.html">SPEECH</a></li>
-                <li><a href="#">Tutoring</a></li>
-                <li><a href="#">Yoga</a></li>
+                <li><a href="tutoring.html">Tutoring</a></li>
+                <li><a href="yoga.html">Yoga</a></li>
               </ul>
             </li>
             <li class="dropdown"><a href="blog.html">Blog</a></li>
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forms</a>
-                <ul class="dropdown-menu">
-                  <li><a href="form-new.html">New Patient</a></li>
-                  <li><a href="form-privacy.html">Privacy Practices</a></li>
-                  <li><a href="form-privacy.html">Child Case History</a></li>
-                </ul>
+              <ul class="dropdown-menu">
+                <li><a href="form-new.html">New Patient</a></li>
+                <li><a href="form-privacy.html">Privacy Practices</a></li>
+                <li><a href="form-history.html">Child Case History</a></li>
+              </ul>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
               <ul class="dropdown-menu">
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="careers.html">Careers</a></li>
               </ul>
-            </li>                                 
+            </li>
           </ul>
         </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row contact-row">
+        <div class="col-md-5">
+          <div class="row text-center">
+          Bellaire
+            <p>4830 Chestnut <br /> 
+                Bellaire, TX 77401 <br />
+                Phone: 713.839.8255 <br />
+                Fax: 713.665.7563</p>
+            <p>Hours: Mon-Fri 8AM-6PM <br />
+            </p>
+          </div>
+          <div class="row text-center">
+            Spring Branch
+            <p>8575 Pitner <br /> 
+                Houston, TX 77080  <br />
+                Phone: 713.839.8255 <br />
+                Fax: 713.996.8784</p>
+            <p>Hours: Mon-Fri 8AM-6PM</p>
+          </div>
+        </div>          
+        <div class="col-md-7">
+          <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Contact us</legend>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Email</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Phone</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+          <div class="form-group">
+            <div class="col-md-12 text-right">
+              <button type="submit" class="btn btn-default btn-md">Submit</button>
+            </div>
+          </div>
+          </fieldset>
+          </form>
+          </div>
+        </div>
       </div>
     </div>
 
-
-    <div class="container-fluid">
-      <div class="row" id="footer">
-        <div class="col-md-3">
-          <h2>News</h2>
-          <p><h3>This is a blog posting<h3></p>
-          <p><h3>This is a blog posting<h3></p>
-          <p><h3>This is a blog posting<h3></p>
-        </div>  
-        <div class="col-md-6">
-          <h2>Contact Us</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <h3>Main Office:</h3>
-              <p><h4>4830 Chestnut
-              <br>Bellaire, TX  77401
-              <br>Office: 713.839.8255
-              <br>Fax: 713.665.7563</h4></p>
-            </div>
-            <div class="col-md-6">
-              <h3>Spring Branch:</h3>
-              <p><h4>8575 Pitner
-              <br>Houston, TX 77080
-              <br>Office: 713.996.8781
-              <br>Fax: 713.996.8784</h4></p>
-            </div>
-          </div>
+    <div class="container">
+      <div class="row map-row">
+        <div class="col-md-6 text-center">
+          <h3>Bellaire Location</h3>
+          <iframe class="map img-responsive" src="https://www.google.com/maps/embed/v1/place?q=Therapy%20Connections%20PC%2C%20Chestnut%20Street%2C%20Bellaire%2C%20TX%2C%20United%20States&key=AIzaSyAPQ0Bo8c7uoIMOeoC7va9dnVwbCkF9SOo&zoom=13"></iframe>
         </div>
-        <div class="col-md-3">
-          <h2>Social Media Icons</h2>
-          <div class="col-md-6 col-md-push-1">
-            <img class="img-responsive social-icon" src="img/facebook-drawn.png" alt="Facebook">
-          </div>
-          <div class="col-md-6 col-md-pull-1">
-            <img class="img-responsive social-icon" src="img/twitter-drawn.png" alt="Twitter">
-          </div>
+        <div class="col-md-6 text-center">
+          <h3>Spring Branch Location</h3>
+          <iframe class="map img-responsive" src="https://www.google.com/maps/embed/v1/place?q=Spring+Branch+Family+Development+Center,+Pitner+Road,+Houston,+TX,+United+States&key=AIzaSyAPQ0Bo8c7uoIMOeoC7va9dnVwbCkF9SOo&zoom=13"></iframe>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-4 col-md-push-4 col-sm-12">
+            <h2>Contact Us</h2>
+            <div class="row">
+              <div class="col-xs-6">
+                <h3>Bellaire:</h3>
+                <p><h4>4830 Chestnut
+                <br>Bellaire, TX  77401
+                <br>Phone: 713.839.8255
+                <br>Fax: 713.665.7563</h4></p>
+              </div>
+              <div class="col-xs-6">
+                <h3>Spring Branch:</h3>
+                <p><h4>8575 Pitner
+                <br>Houston, TX 77080
+                <br>Phone: 713.839.8255
+                <br>Fax: 713.996.8784</h4></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-pull-4 col-sm-12">
+            <h2>News</h2>
+            <p><h3>This is a blog posting<h3></p>
+            <p><h3>This is a blog posting<h3></p>
+            <p><h3>This is a blog posting<h3></p>
+          </div>
+          <div class="col-md-4 col-sm-12 text-center">
+            <h2>Social Media Icons</h2>
+            <div class="col-xs-6 col-xs-3 col-xs-offset-3">
+              <img class="img-responsive social-icon" src="img/facebook-drawn.png" alt="Facebook">
+            </div>
+            <div class="col-xs-6 col-xs-6">
+              <img class="img-responsive social-icon" src="img/twitter-drawn.png" alt="Twitter">
+            </div>
+          </div>
+        </div>
+      </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/extra.js"></script>
+    <script src="js/bootstrap-hover-dropdown.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
