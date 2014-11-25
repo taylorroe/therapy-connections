@@ -12,7 +12,7 @@ Colors: Royal Blue: 15 53 166 #0F35A6
 ****************************************************/
 
 body {
-  margin-top: 100px;
+  margin-top: 50px;
   color: #102973;
 }
 .container {
@@ -109,8 +109,9 @@ h6 {
 ****************************************************/
 
 .logo-img {
-  height: 70px;
+  height: 50px;
   width: 200px;
+  margin: -15px 0;
 }
 .hero-img {
   margin: auto;
@@ -123,6 +124,8 @@ h6 {
 .img-staff {
   width: 117px;
   height: 114px;
+  float: left;
+  padding-right: 3px;
 }
 .img-circle {
   height: 50px;
@@ -140,53 +143,26 @@ h6 {
                       Navigation
 ****************************************************/
 
-.navbar-fixed-top {
+.navbar-default {
   max-width: 960px;
   margin: 0 auto -1px;
 }
-.navbar-fixed-top {
-  background-color: #6ba5f2;
-}
-.navbar-fixed-top .navbar-brand {
-  color: #fff;
-}
-.navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
-  color: #fff;
-}
-.navbar-fixed-top .navbar-text {
-  color: #fff;
-}
-.navbar-fixed-top .navbar-nav > li > a {
-  color: #fff;
-  background-color: #6ba5f2;
+.navbar-default .navbar-nav > li > a {
   font-size: 1.2em;
-}
-.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus, .navbar-fixed-top .navbar-nav > .active > a, .navbar-fixed-top .navbar-nav > .active > a:hover, .navbar-fixed-top .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #80c7f2;
 }
 .dropdown-menu > li > a {
   color: #fff;
-  background-color: #6ba5f2;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > a, .n.dropdown-menu > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
-  background-color: #80c7f2;
 }
-.dropdown-menu {
-  background-color: #6ba5f2;
-}
-.navbar-fixed-top .navbar-nav > .open > a, .navbar-fixed-top .navbar-nav > .open > a:hover, .navbar-fixed-top .navbar-nav > .open > a:focus {
-  color: #fff;
-  background-color: #80c7f2;
-}
-.navbar-fixed-top .navbar-toggle {
+.navbar-default .navbar-toggle {
   border-color: #80c7f2;
 }
-.navbar-fixed-top .navbar-toggle:hover, .navbar-fixed-top .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #80c7f2;
 }
-.navbar-fixed-top .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 .navbar-toggle {
@@ -194,7 +170,7 @@ h6 {
 }
 
 @media (max-width: 990px) {
-  .navbar-fixed-top {
+  .navbar-default {
     max-width: 750px;
   }
 }
@@ -205,13 +181,13 @@ h6 {
   }
 
 @media (max-width: 767px) {
-  .navbar-fixed-top .navbar-nav .open .dropdown-menu > li > a {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
   }
-  .navbar-fixed-top .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-fixed-top .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
   }
-  .navbar-fixed-top .navbar-nav .open .dropdown-menu > .active > a, .navbar-fixed-top .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-fixed-top .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
     background-color: #80c7f2;
   }
@@ -286,6 +262,21 @@ h6 {
   min-height: 400px;
 }
 
+/****************************************************
+                      Panel
+****************************************************/
+ 
+.panel-default > .staff-heading {
+    border-radius: 6px 6px 0 0;
+    color: #fff;
+  }
+.panel-default > .staff-heading > h2 {
+    margin: 1px;
+  }
+.panel-default > .staff-body {
+    border-radius: 0 0 6px 6px;
+    background: #fff;
+  }
 
 /****************************************************
                       Buttons
@@ -299,6 +290,21 @@ h6 {
   color: #fff;
 }
 
+/****************************************************
+                      Labels
+****************************************************/
+
+/* .label-meet,
+.label-meet > a,
+.label-meet > a:hover,
+.label-meet > a:active,
+.label-meet > a:visited {
+  background: #102973;
+  color: #fff;
+} */
+.label-meet{
+  margin-right: 3px;
+}
 
 /****************************************************
                       Blog
