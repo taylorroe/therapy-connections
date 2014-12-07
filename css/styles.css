@@ -30,21 +30,13 @@ body {
 }
 .services-row {
   text-align: center;
-  padding: 1em 0 2em 0;
-}
-.services-row a,
-.services-row a:active,
-.services-row a:hover,
-.services-row a:visited,
-.services-row a:focus {
-  color: #102973;
-  text-decoration: none;
+  padding: 1em 0 2em 0; 
 }
 .services-row .col-sm-4 {
   padding: 1em 0;
 }
 .contact-row {
-  margin-top: 2em;
+  padding-bottom: 3em;
 }
 .map-row {
   margin: 2em;
@@ -56,10 +48,10 @@ body {
   margin-top: 6em;
 }
 .title-row {
-  padding: 2em 0 3em 0;
+  padding-bottom: 3em;
 }
 .form {
-  padding-top: 2em;
+  padding-bottom: 3em;
 }
   
 /* div[class*='col'] {
@@ -155,7 +147,11 @@ h6 {
 .dropdown-menu > li > a {
   color: #fff;
 }
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > a, .n.dropdown-menu > a:hover, .dropdown-menu > .active > a:focus {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > a,
+.dropdown-menu > a:hover,
+.dropdown-menu > .active > a:focus {
   color: #fff;
 }
 .navbar-default .navbar-toggle {
@@ -169,6 +165,14 @@ h6 {
 }
 .navbar-toggle {
   background: #6BA5F2;
+}
+.services-row a,
+.services-row a:active,
+.services-row a:hover,
+.services-row a:visited,
+.services-row a:focus {
+  color: #102973;
+  text-decoration: none;
 }
 
 /*.navbar-collapse ul {
@@ -243,14 +247,15 @@ h6 {
                       Panel
 ****************************************************/
  
-.panel-default > .staff-heading {
+.panel-default .panel-heading {
     border-radius: 6px 6px 0 0;
     color: #fff;
   }
-.panel-default > .staff-heading > h2 {
+.panel-default .panel-heading > h2,
+.panel-default .panel-heading > h3,{
     margin: 1px;
   }
-.panel-default > .staff-body {
+.panel-default .panel-body {
     border-radius: 0 0 6px 6px;
     background: #fff;
   }
@@ -281,6 +286,13 @@ h6 {
 } */
 .label-meet{
   margin-right: 3px;
+}
+
+.label-heading {
+background-color: white;
+color: #102973;
+font-size: 2.1em;
+font-weight: 600;
 }
 
 /****************************************************
